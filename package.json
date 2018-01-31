@@ -1,0 +1,45 @@
+{
+  "name": "hang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server/main.js",
+  "dependencies": {
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "chai": "^4.1.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "ip": "^1.1.5",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.7",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "request": "^2.81.0",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.24",
+    "awesome-typescript-loader": "^3.2.3",
+    "gulp": "^3.9.1",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.6",
+    "webpack-stream": "^4.0.0"
+  },
+  "scripts": {
+    "start": "run",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
