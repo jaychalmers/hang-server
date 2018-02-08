@@ -12,7 +12,7 @@ const groupSchema = new mongoose.Schema({
     feedback_pos: {type: Number, required: true},
     feedback_neg: {type: Number, required: true},
     interests   : {type: [String], required: true}
-});
+}, {timestamps: true});
 
 //Create module and expose
-module.exports = mongoose.model('group',groupSchema);
+export default mongoose.model('Group',groupSchema);

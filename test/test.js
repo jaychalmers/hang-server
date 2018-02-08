@@ -22,11 +22,11 @@ const lackingRequiredFields = {
     name: Math.random().toString(36).substring(2,8)
 };
 
-describe('user/', function() {
+describe('users/', function() {
 
     describe('new/', function () {
         var options = {
-            url: url + "/user/new",
+            url: url + "/users/new",
             method: "POST",
             json: true,
             headers: {
@@ -34,7 +34,7 @@ describe('user/', function() {
             }
         };
 
-        it('should return a 200 confirmation if user is created successfully', function (done) {
+        it('should return a 200 confirmation if users is created successfully', function (done) {
             options.body = newModelUser;
             request(options, function (error, response, body) {
                 done();
@@ -55,7 +55,7 @@ describe('user/', function() {
     describe('update-by-email/', function () {
 
         var options = {
-            url: url + "/user/update-by-email",
+            url: url + "/users/update-by-email",
             method: "PUT",
             json: true,
             headers: {

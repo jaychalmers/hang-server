@@ -1,7 +1,622 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ac1e789-9f26-4a91-bb0b-4ca2de61427d" name="Default" comment="" />
+    <list default="true" id="4ac1e789-9f26-4a91-bb0b-4ca2de61427d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/config/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/config/database.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/config/middleware.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/config/passport.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/event/controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/event/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/event/model.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/event/routes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/groups/controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/groups/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/groups/model.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/groups/routes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/user/controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/user/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/user/model.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/user/routes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/users/controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/users/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/users/model.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/users/routes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/users/utils/createToken.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/modules/users/utils/passport.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/server/utils/requireJwtAuth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/UPGRADE_GUIDE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/cancel/Cancel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/cancel/CancelToken.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/cancel/isCancel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/Axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/InterceptorManager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/createError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/dispatchRequest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/enhanceError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/settle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/transformData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/defaults.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/bind.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/btoa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/buildURL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/combineURLs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/cookies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/deprecatedMethod.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isAbsoluteURL.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isURLSameOrigin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/normalizeHeaderName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/parseHeaders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/spread.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/axios/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/dist/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/dist/base64url.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/dist/base64url.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/dist/pad-string.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/dist/pad-string.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/typings/globals/node/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/typings/globals/node/typings.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64url/typings/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/src/ecdsa-sig-formatter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/src/param-bytes-for-alg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/https.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.coveralls.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/debug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/lib/isemail.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/test/isemail.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/test/mocha.opts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/isemail/test/tests.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/.eslintignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/API.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/examples/conditionalRequire.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/examples/customMessage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/examples/multipleWhen.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/generate-readme-toc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/images/joi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/images/validation.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/alternatives.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/any.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/array.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/binary.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/boolean.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/cast.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/date.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/errors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/language.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/number.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/object.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/ref.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/string.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/string/ip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/string/rfc3986.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/lib/string/uri.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/alternatives.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/any.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/array.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/binary.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/boolean.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/date.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/errors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/function.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/helper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/number.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/object.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/ref.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/joi/test/string.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/decode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/JsonWebTokenError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/NotBeforeError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/TokenExpiredError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/timespan.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/license.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/sign.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jwa/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jwa/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jwa/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jwa/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jwa/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/lib/data-stream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/lib/sign-stream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/lib/tostring.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/lib/verify-stream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/jws/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.includes/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.includes/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.includes/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.includes/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isboolean/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isboolean/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isboolean/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isboolean/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isinteger/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isinteger/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isinteger/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isinteger/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isnumber/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isnumber/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isnumber/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isnumber/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.once/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.once/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.once/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.once/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/docs/migrating.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/lib/auth_header.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/lib/extract_jwt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/lib/helpers/assign.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/lib/strategy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/lib/verify_jwt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/.gitignore_20170513142606" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/.gitignore_20170513144908" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/.gitignore_20170513144915" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/.travis_20170513142530.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/CHANGELOG_20170804143542.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/CHANGELOG_20170817161903.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/CHANGELOG_20170817161932.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/CHANGELOG_20170817161957.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/CHANGELOG_20170817162020.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/CHANGELOG_20170817162102.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170624113057.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170624113904.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170624113944.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170624114239.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714131043.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714131333.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714131446.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714131544.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714131628.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714132156.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714174551.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714174555.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/README_20170714174602.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/ecissue_20170611105811.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/ecissue_20170611110014.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/ecissue_20170611110046.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/ecissue_20170611110149.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/ecissue_20170611110319.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/ecissue_20170611110407.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/index.d_20170513010248.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/index.d_20170513010322.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611142053.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611142101.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611142211.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611142318.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611142521.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611143226.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611143410.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611143443.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611160545.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611160826.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611161125.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611161534.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611161848.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611162126.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611162608.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/claim_checks_20170611162645.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/matchers_20170611141841.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/matchers_20170611141949.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611162758.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611162842.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611162857.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611162901.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163142.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163308.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163325.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163352.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163433.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163534.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163652.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163659.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163722.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163736.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163744.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163755.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163842.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163937.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611163945.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164012.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164118.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164133.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164147.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164316.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164413.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164427.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611164802.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611165845.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611165916.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611170110.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611170200.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611170242.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611170500.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611170507.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611170613.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171206.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171300.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171307.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171454.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171605.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171610.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171622.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171656.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170611171759.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624222641.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624223320.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624224104.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624225245.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624225731.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624232758.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624232839.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624232929.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624233010.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624233055.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624233201.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624233301.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624233715.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624234804.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_20170624235933.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_2017062501148.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_2017062503116.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_2017062503225.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_201706250732.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_201706250743.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_201706250818.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_201706250837.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/payload_checks_201706250847.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/timespan_20170513162630.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/timespan_20170513162744.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadChecks_2017062503250.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadChecks_2017062503409.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadVerifier_20170625010906.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadVerifier_2017062503717.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadVerifier_2017062503921.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadVerifier_2017062504120.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadVerifier_2017062504629.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/PayloadVerifier_2017062504718.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/payload-checks_2017062504211.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/payload-checks_2017062504231.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify/payload/verifier_2017062503130.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/aud_20170611171543.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/aud_20170611171555.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/exp_20170611171442.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/exp_20170611171504.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/iss_20170611171644.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/nbf_20170611171215.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/nbf_20170611171229.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/nbf_20170611171241.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/lib/verify_checks/nbf_20170611171321.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/package_20170513122214.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/package_20170513122244.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/package_20170513142409.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/package_20170513142453.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/package_20170513142659.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/package_20170513144757.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_2017011304458.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_2017011304615.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724162830.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724162903.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724163911.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724163949.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724164042.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724165002.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724165020.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724165059.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170724165421.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170817134030.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170817134051.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170817134417.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170817134431.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/sign_20170817134909.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724164558.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724164633.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724164927.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165127.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165236.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165344.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165359.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165438.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165516.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165532.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170724165554.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170817134547.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/async_sign.tests_20170817134704.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/custom_verifiers.tests_20170611141651.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/custom_verifiers.tests_20170611162335.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/issue_196.tests_20170206184753.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/issue_70.tests_20170610123449.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170610213044.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170610213645.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170610235842.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611123247.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611123420.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611123424.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611123503.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611123603.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611123650.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611123734.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611125018.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611125054.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611125102.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611125216.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611125543.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611131822.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611131827.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.asymmetric_signing.tests_20170611131843.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/jwt.hs.tests_20170817134348.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/undefined_secretOrPublickey.tests_20170611132657.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/undefined_secretOrPublickey.tests_20170611132832.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/verify.tests_20170624233751.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/verify.tests_20170624233815.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/test/verify.tests_20170624234349.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123121.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123134.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123149.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123159.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123215.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123240.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123244.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123254.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123314.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123348.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123445.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123521.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123734.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714123831.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714125048.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714125350.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714125406.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714125435.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tester_20170714130320.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/token-generator_20170714125353.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/token-generator_20170714125518.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714114934.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714115012.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714115225.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714115454.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714115742.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714115925.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714120855.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714121351.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714121630.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714121750.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714122022.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714122100.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714122518.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714122734.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714122951.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714123114.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714123654.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714124432.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714124637.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714124702.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714124727.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/tokenGenerator_20170714124849.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017011304950.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017011305133.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017011305435.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624224732.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624224837.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624225657.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624225721.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624225824.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624230422.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624230734.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624232900.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624232952.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624233036.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624233130.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624233228.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624233850.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624234527.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624234530.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624234535.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170624234542.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062501149.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062501429.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062501755.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062502652.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062502752.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062502930.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_201706250332.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062503510.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062503708.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062503737.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_2017062504011.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170714174531.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.history/verify_20170714174538.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/bin/changelog" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/decode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/lib/JsonWebTokenError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/lib/NotBeforeError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/lib/TokenExpiredError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/lib/timespan.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/sign.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/async_sign.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/buffer.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/ecdsa-private.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/ecdsa-public-invalid.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/ecdsa-public-x509.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/ecdsa-public.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/encoding.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/expires_format.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/iat.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/invalid_exp.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/invalid_pub.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/issue_147.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/issue_196.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/issue_304.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/issue_70.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/jwt.asymmetric_signing.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/jwt.hs.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/keyid.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/noTimestamp.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/non_object_values.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/priv.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/pub.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/rsa-private.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/rsa-public-key.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/rsa-public-key.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/rsa-public.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/set_headers.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/undefined_secretOrPublickey.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/util/fakeDate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/verify.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/test/wrong_alg.tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/node_modules/jsonwebtoken/verify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/auth_header-test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/extrators-test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/mock_request.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/strategy-init-test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/strategy-requests-test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/strategy-validation-test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/strategy-verify-test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-jwt/test/testdata.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/API.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/topo/test/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/config/config.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/config/database.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/config/middleware.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/event/controller.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/event/index.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/event/routes.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/groups/controller.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/groups/index.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/groups/routes.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/index.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/controller.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/index.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/routes.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/utils/createToken.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/utils/facebookAuth.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/utils/getUserInfo.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/utils/googleAuth.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/modules/users/utils/passport.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/utils/requireJwtAuth.ts" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/dist/config/passport.js" afterPath="$PROJECT_DIR$/dist/config/passport.js" />
+      <change beforePath="$PROJECT_DIR$/dist/server/database/invitation.js" afterPath="$PROJECT_DIR$/dist/server/database/invitation.js" />
+      <change beforePath="$PROJECT_DIR$/dist/server/database/user.js" afterPath="$PROJECT_DIR$/dist/server/database/user.js" />
+      <change beforePath="$PROJECT_DIR$/dist/server/main.js" afterPath="$PROJECT_DIR$/dist/server/main.js" />
+      <change beforePath="$PROJECT_DIR$/dist/server/routes/group.js" afterPath="$PROJECT_DIR$/dist/server/routes/group.js" />
+      <change beforePath="$PROJECT_DIR$/dist/server/routes/passport.js" afterPath="$PROJECT_DIR$/dist/server/routes/passport.js" />
+      <change beforePath="$PROJECT_DIR$/dist/server/routes/user.js" afterPath="$PROJECT_DIR$/dist/server/routes/user.js" />
+      <change beforePath="$PROJECT_DIR$/src/config/database.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/config/passport.ts" afterPath="$PROJECT_DIR$/src/server/config/passport.ts" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/event.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/group.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/invitation.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/model/event.ts" afterPath="$PROJECT_DIR$/src/server/modules/event/model.ts" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/model/group.ts" afterPath="$PROJECT_DIR$/src/server/modules/groups/model.ts" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/model/invitation.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/model/user.ts" afterPath="$PROJECT_DIR$/src/server/modules/users/model.ts" />
+      <change beforePath="$PROJECT_DIR$/src/server/database/user.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/main.ts" afterPath="$PROJECT_DIR$/src/server/main.ts" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/event.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/group.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/index.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/invitation.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/passport.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/user.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,13 +628,130 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.56848484">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="301">
+                  <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/main.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="controller.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/server/modules/users/controller.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="model.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/modules/users/model.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="861">
+                  <caret line="41" column="52" lean-forward="false" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+                  <folding>
+                    <element signature="e#0#37#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/modules/users/index.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="63">
+                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="routes.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/modules/users/routes.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="config.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/config/config.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="database.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/config/database.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="middleware.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/server/config/middleware.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#0#42#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="run.bat" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/run.bat">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -35,39 +767,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/client/testGood.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserUpdateGood" />
-        <option value="$PROJECT_DIR$/src/server/database/queries_user.ts" />
-        <option value="$PROJECT_DIR$/src/client/testUserUpdateGood.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserDeleteGood.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserUpdateBad.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserGetGood.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserGetBad.js" />
-        <option value="$PROJECT_DIR$/src/client/testEventCreateGood.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserNewBad.js" />
-        <option value="$PROJECT_DIR$/src/client/testInvitationNewGood.js" />
-        <option value="$PROJECT_DIR$/src/client/testInvitationNewBad.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserDeleteBad.js" />
-        <option value="$PROJECT_DIR$/src/server/test/user.js" />
-        <option value="$PROJECT_DIR$/src/server/test/test.js" />
-        <option value="$PROJECT_DIR$/src/client/testUserNewGood.js" />
-        <option value="$PROJECT_DIR$/testicles.js" />
-        <option value="$PROJECT_DIR$/test/test.js" />
-        <option value="$PROJECT_DIR$/config/database.js" />
-        <option value="$PROJECT_DIR$/src/server/database/schema.ts" />
-        <option value="$PROJECT_DIR$/src/server/database/schema/user.ts" />
-        <option value="$PROJECT_DIR$/src/server/database/model/user.ts" />
-        <option value="$PROJECT_DIR$/dist/server/main.js" />
-        <option value="$PROJECT_DIR$/src/server/database/user.ts" />
-        <option value="$PROJECT_DIR$/src/server/database/model/invitation.ts" />
-        <option value="$PROJECT_DIR$/src/server/database/model/schema.ts" />
-        <option value="$PROJECT_DIR$/src/server/database/invitation.ts" />
-        <option value="$PROJECT_DIR$/src/server/routes/invitation.ts" />
-        <option value="$PROJECT_DIR$/run.bat" />
-        <option value="$PROJECT_DIR$/src/web/react/main.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/server/database/hangEvent.ts" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/web/index.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
@@ -77,15 +776,48 @@
         <option value="$PROJECT_DIR$/exampleEventPutRequests.json" />
         <option value="$PROJECT_DIR$/src/server/database/model/event.ts" />
         <option value="$PROJECT_DIR$/src/server/database/groups.ts" />
-        <option value="$PROJECT_DIR$/src/server/routes/event.ts" />
         <option value="$PROJECT_DIR$/src/server/database/group.ts" />
         <option value="$PROJECT_DIR$/src/server/database/model/group.ts" />
         <option value="$PROJECT_DIR$/src/server/routes/index.ts" />
         <option value="$PROJECT_DIR$/src/server/routes/user.ts" />
         <option value="$PROJECT_DIR$/src/server/routes/group.ts" />
-        <option value="$PROJECT_DIR$/src/server/main.ts" />
         <option value="$PROJECT_DIR$/src/server/routes/auth.ts" />
         <option value="$PROJECT_DIR$/src/server/routes/passport.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/model.js" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/index.js" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/controller.js" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/routes.js" />
+        <option value="$PROJECT_DIR$/src/server/routes/event.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/groups/index.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/index.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/groups/model.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/groups/routes.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/model.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/controller.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/user/model.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/user/controller.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/user/routes.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/user/index.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/index.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/groups/controller.ts" />
+        <option value="$PROJECT_DIR$/src/config/config.ts" />
+        <option value="$PROJECT_DIR$/src/config/middleware.ts" />
+        <option value="$PROJECT_DIR$/src/config/database.ts" />
+        <option value="$PROJECT_DIR$/src/server/config/database.ts" />
+        <option value="$PROJECT_DIR$/src/server/main.ts" />
+        <option value="$PROJECT_DIR$/src/server/config/middleware.ts" />
+        <option value="$PROJECT_DIR$/src/server/utils/requireJwtAuth.js.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/event/routes.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/utils/passport.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/utils/createToken.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/utils/getUserInfo.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/utils/facebookAuth.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/utils/googleAuth.ts" />
+        <option value="$PROJECT_DIR$/run.bat" />
+        <option value="$PROJECT_DIR$/src/server/config/config.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/controller.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/routes.ts" />
+        <option value="$PROJECT_DIR$/src/server/modules/users/model.ts" />
       </list>
     </option>
   </component>
@@ -98,11 +830,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1371" />
-    <option name="height" value="856" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -119,7 +851,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,6 +868,13 @@
               <item name="hang-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="hang-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hang-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hang-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,33 +882,21 @@
               <item name="hang-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hang-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="hang-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hang-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hang-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hang-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hang-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,19 +908,19 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hang-app" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jamie\WebstormProjects\hang\src\client" />
-      <recent name="C:\Users\jamie\WebstormProjects\hang\src\server\routes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jamie\WebstormProjects\hang-server\src\server" />
       <recent name="C:\Users\jamie\WebstormProjects\hang\src" />
       <recent name="C:\Users\jamie\WebstormProjects\hang\src\server\database\schema" />
       <recent name="C:\Users\jamie\WebstormProjects\hang\test" />
       <recent name="C:\Users\jamie\WebstormProjects\hang\src\server" />
-      <recent name="C:\Users\jamie\WebstormProjects\hang\app\server\database" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jamie\WebstormProjects\hang\src\client" />
+      <recent name="C:\Users\jamie\WebstormProjects\hang\src\server\routes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,12 +989,15 @@
       <workItem from="1515504795398" duration="12440000" />
       <workItem from="1517225718574" duration="5754000" />
       <workItem from="1517312088209" duration="3108000" />
-      <workItem from="1517404734208" duration="122000" />
+      <workItem from="1517404734208" duration="3073000" />
+      <workItem from="1517411894121" duration="26470000" />
+      <workItem from="1518020694482" duration="2586000" />
+      <workItem from="1518106019641" duration="4633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211282000" />
+    <option name="totallyTimeSpent" value="247922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,17 +1009,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13066386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13066386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178067" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26818675" sideWeight="0.29610115" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178067" sideWeight="0.49578503" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21064061" sideWeight="0.70389885" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -298,9 +1028,29 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26818675" sideWeight="0.29610115" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26818675" sideWeight="0.70389885" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13066386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -310,91 +1060,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/server/database/queries_user.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserUpdateBad.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserGetGood.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserGetBad.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserDeleteGood.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testInvitationNewGood.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testInvitationNewBad.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserDeleteBad.js" />
-    <entry file="file://$PROJECT_DIR$/src/server/test/user.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserNewBad.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserNewGood.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testEventCreateGood.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/testUserUpdateGood.js" />
-    <entry file="file://$PROJECT_DIR$/testicles.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/lodash/_addMapEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/model/schema.ts" />
-    <entry file="file://$PROJECT_DIR$/src/server/database/model/invitation.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/web/react/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/web/index.js" />
-    <entry file="file://$PROJECT_DIR$/dist/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/web/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/invitation.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
@@ -402,13 +1072,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/database/user.ts" />
     <entry file="file://$PROJECT_DIR$/exampleEventPutRequests.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -416,27 +1080,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/routes/invitation.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/model/event.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/model/group.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/routes/invitation.ts" />
     <entry file="file://$PROJECT_DIR$/src/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -451,52 +1095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/database.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/model/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/event.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/routes/event.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/database/group.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/routes/group.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -508,53 +1110,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/passport.ts">
+    <entry file="file://$PROJECT_DIR$/src/server/config/passport.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/routes/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#29#66#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/routes/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/routes/passport.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -563,22 +1122,251 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/routes/passport.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/routes/event.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/database/event.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/routes/user.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/routes/index.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/database/group.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/database/model/group.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/database/invitation.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/modules/event/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/groups/model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/event/model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/groups/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/groups/controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/groups/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/utils/requireJwtAuth.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/event/controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/utils/passport.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/event/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/utils/createToken.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/database/model/invitation.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/database/model/user.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/database/model/event.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/routes/group.ts" />
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/utils/facebookAuth.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/utils/getUserInfo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/utils/googleAuth.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/config/config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/config/database.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/config/middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="52" lean-forward="false" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/modules/users/controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding />
         </state>
       </provider>

@@ -12,10 +12,10 @@ const eventSchema = new mongoose.Schema({
     group           : mongoose.Schema.Types.ObjectId,
     description     : {type: String, required: true},
     invited         : [mongoose.Schema.Types.ObjectId],
-    interests       : {type: [String], required: true},
+    interests       : {type: [String]},
     price           : Number,
-    schedule        : {type: [scheduleSchema], required: true}
-});
+    schedule        : {type: [scheduleSchema]}
+}, {timestamps: true});
 
 //Create module and expose
-module.exports = mongoose.model('event',eventSchema);
+export default mongoose.model('Event',eventSchema);

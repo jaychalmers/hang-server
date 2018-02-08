@@ -1,5 +1,5 @@
 const LocalStrategy = require('passport-local').Strategy;
-const User = require('./../server/database/model/user');
+const User = require('../database/model/user');
 
 module.exports = function(passport) {
     /*** Passport Session Setup ***/
@@ -28,7 +28,7 @@ module.exports = function(passport) {
                     return done(err);
                 }
                 if (!user) {
-                    return done(null, false, req.flash('loginMessage', 'No user found.'));
+                    return done(null, false, req.flash('loginMessage', 'No users found.'));
                 }
                 if(!user.validPassword(password)) {
                     return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.'));
@@ -47,24 +47,24 @@ module.exports = function(passport) {
             //async
             //User.findOne wont fire unless data is sent back
             process.nextTick(function() {
-                //find a user whose email is the same as the forms email
-                //we are checking to see if the user trying to login already exists
+                //find a users whose email is the same as the forms email
+                //we are checking to see if the users trying to login already exists
                 User.findOne({'local.email' : email }, function (error, user) {
                     //if there are any errors, return the error
                     if (error) return done(error);
-                    // check to see if theres already a user with that email
+                    // check to see if theres already a users with that email
                     if (user) {
                         return done(null, false, req.flash('signupMessage', 'Email already in use'));
                     } else {
-                        //if there is no user with that email
-                        //create the user
+                        //if there is no users with that email
+                        //create the users
                         const newUser = new User();
 
-                        //set the user's local credentials
+                        //set the users's local credentials
                         newUser.local.email = email;
                         newUser.local.password = newUser.generateHash(password);
 
-                        //save the user
+                        //save the users
                         newUser.save(function(err) {
                             if (err) throw err;
                             return done(null, newUser);
