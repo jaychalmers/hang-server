@@ -1,1 +1,1 @@
-# My project's README
+Backend Node.js/Express server for a social media app
